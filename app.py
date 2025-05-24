@@ -5,7 +5,7 @@ import json
 app = Flask(__name__)
 
 VALID_API_KEYS = {
-    "ch9ayfa555": "active"
+    "ch9ayfa55555": "active"
 }
 
 def validate_api_key(api_key):
@@ -39,7 +39,7 @@ def check_banned(player_id):
             period = data.get("period", 0)
 
             result = {
-                "credits": "@blrxban",
+                "credits": "@CH9AYFAX1",
                 "channel": "https://t.me/bot_bx_ban",
                 "status": "BANNED" if is_banned else "NOT BANNED",
                 "ban_period": period if is_banned else 0,
